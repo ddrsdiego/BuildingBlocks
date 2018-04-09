@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easynvest.BuildingBlocks.Resilience.Http", "Resilience.Http\Easynvest.BuildingBlocks.Resilience.Http\Easynvest.BuildingBlocks.Resilience.Http.csproj", "{FCB0FAEC-2F9A-43C0-BA95-24EF33C4A625}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{5A7DEB60-6C46-458D-8935-6506D7775EFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easynvest.BuildingBlocks.App", "libs\Easynvest.BuildingBlocks.App\Easynvest.BuildingBlocks.App.csproj", "{49FB257C-AB1B-4BCE-8D6F-15DDD69EEB6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resilience.Http", "Resilience.Http", "{6BEE44CA-A2C3-47A0-A56C-FD477D3C4246}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KingsCross", "KingsCross", "{DE93BE90-F8EB-464F-8F5D-50EE7FF4186C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easynvest.BuildingBlocks.KingsCross", "KingsCross\Easynvest.BuildingBlocks.KingsCross.csproj", "{FCC1185B-73AE-4DCC-9A36-D79854B7380C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCB0FAEC-2F9A-43C0-BA95-24EF33C4A625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB0FAEC-2F9A-43C0-BA95-24EF33C4A625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB0FAEC-2F9A-43C0-BA95-24EF33C4A625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB0FAEC-2F9A-43C0-BA95-24EF33C4A625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FB257C-AB1B-4BCE-8D6F-15DDD69EEB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FB257C-AB1B-4BCE-8D6F-15DDD69EEB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FB257C-AB1B-4BCE-8D6F-15DDD69EEB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FB257C-AB1B-4BCE-8D6F-15DDD69EEB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC1185B-73AE-4DCC-9A36-D79854B7380C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC1185B-73AE-4DCC-9A36-D79854B7380C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC1185B-73AE-4DCC-9A36-D79854B7380C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC1185B-73AE-4DCC-9A36-D79854B7380C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCB0FAEC-2F9A-43C0-BA95-24EF33C4A625} = {6BEE44CA-A2C3-47A0-A56C-FD477D3C4246}
+		{49FB257C-AB1B-4BCE-8D6F-15DDD69EEB6B} = {5A7DEB60-6C46-458D-8935-6506D7775EFE}
+		{FCC1185B-73AE-4DCC-9A36-D79854B7380C} = {DE93BE90-F8EB-464F-8F5D-50EE7FF4186C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EA584E7-040B-4300-B984-C261D1097F4B}
+	EndGlobalSection
+EndGlobal

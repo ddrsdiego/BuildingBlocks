@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\KingsCross\Easynvest.BuildingBlocks.KingsCross.csproj" />
+    <ProjectReference Include="..\..\Resilience.Http\Easynvest.BuildingBlocks.Resilience.Http\Easynvest.BuildingBlocks.Resilience.Http.csproj" />
+  </ItemGroup>
+
+</Project>
